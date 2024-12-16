@@ -11,7 +11,7 @@ import java.util.ArrayList;
  */
 class AccountManager {
     private ArrayList<User> users = new ArrayList<>();
-    private ArrayList<Job> jobListings = new ArrayList<>(); // Daftar semua lowongan pekerjaan
+    private ArrayList<Job> jobListings = new ArrayList<>(); // Daftar semua loker
 
     public boolean register(User user) {
         for (User u : users) {
